@@ -35,6 +35,10 @@ div.intro{
     font-family: 'itc_erasultra';
     font-weight: bolder;
 }
+a.link{
+    display: block;
+    margin: auto;
+}
 img{
     display: block;
     margin: auto;
