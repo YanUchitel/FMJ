@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'antillesregular';
+    src: url('antilles-webfont.woff2') format('woff2'),
+         url('antilles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'itc_erasultra';
+    src: url('erasitcbybt-ultra-webfont.woff2') format('woff2'),
+         url('erasitcbybt-ultra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'benchninelight';
+    src: url('benchnine-light-webfont.woff2') format('woff2'),
+         url('benchnine-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+div.introParent{
+    text-align: center;
+}
+div.intro{
+    display: inline-block;
+    line-height: 30px;
+    text-align: left;
+    font-size:30px;
+    font-family: 'itc_erasultra';
+    font-weight: bolder;
+}
+img{
+    display: block;
+    margin: auto;
+}
+p{
+    background-image: url('FMJ.jpg');
+}
+div.author{
+    text-align: center;
+    font-size:large;
+    font-family: 'itc_erasultra';
+    font-weight:600;
+    font-size: 25px;
+}
+div.FMJ{
+    line-height: 65px;
+    text-align: center;
+    font-size:80px;
+    font-family: 'antillesregular';
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+div.outro{
+    font-size:20px;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'benchninelight';
+}
+a{
+    display: inline-block;
+    font-size: 0.45em;
+    text-align: right;
+    line-height: 0.85em;
+}
